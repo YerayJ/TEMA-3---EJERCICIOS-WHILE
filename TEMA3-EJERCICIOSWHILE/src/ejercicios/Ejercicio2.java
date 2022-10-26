@@ -25,11 +25,11 @@ public class Ejercicio2 {
 
 		// Creamos el bucle
 		while (num >= 0) { // Mientras num sea positivo seguirá ejecutandose el bucle
-			contador++; // 
+			contador++; // Le sumamos en cada vuelta del bucle uno para que nos sirva como contador
 			num = key.nextInt(); // Y pedimos otra vez el número para añadirlo a la suma del bucle.
 		}
 		System.out.println("Hay un total de : " + contador + " números"); // Por último imprimimos el
-																							// total del resultado.
+																		  // total del resultado.
 
 		// Cerramos el escaner
 		key.close();
